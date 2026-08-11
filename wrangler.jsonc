@@ -1,0 +1,23 @@
+{
+  // Bandruptcy is a purely static site: one HTML file, one JS bundle, and a pile of
+  // SVG and MP3 under assets/. So this is an assets-only Worker -- there is no `main`
+  // entrypoint and no server-side code, and Cloudflare serves the files directly
+  // from its edge.
+  //
+  // The Worker's build command must be `npm run build`, set in the dashboard under
+  // Settings -> Build, because `dist/` is generated and not committed. Without it
+  // `wrangler deploy` finds no ./dist and fails.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "band1",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./dist",
+    // The game is a single page that owns its own state; there are no routes. Serving
+    // index.html for anything unmatched means a stray URL still lands on the title
+    // screen rather than on a 404.
+    "not_found_handling": "single-page-application"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
