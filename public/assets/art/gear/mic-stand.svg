@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="46" viewBox="0 0 16 46">
-  <!-- Long object rotating about its base is the most readable animation there is
-       (6.6.1), so the mic and the boom are one rigid part. -->
-  <path d="M6 12 L9 12 L9 44 L6 44 Z" fill="#6b6455" stroke="%INK%" stroke-width="1.1"/>
-  <path d="M1 43 L14 43 L15 46 L0 46 Z" fill="#3d382e" stroke="%INK%" stroke-width="1"/>
-  <path d="M7 13 L15 8 L15 11 L8 15 Z" fill="#6b6455" stroke="%INK%" stroke-width="1"/>
-  <path d="M2 2 L11 6 L9 12 L1 8 Z" fill="#1e1a15" stroke="%INK%" stroke-width="1.2"/>
-  <ellipse cx="4" cy="4" rx="3.4" ry="2.6" fill="#4a4438"/>
-  <path d="M3 3 L5 3.6" stroke="#8d8570" stroke-width="0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="36" viewBox="0 0 22 36">
+  <!-- A low stand with a short boom, which is what actually goes in front of a combo.
+       One rigid part: a long object rotating about its base is the most readable
+       animation available (doc 6.6.1), and swinging it off the cone is a real event. -->
+  <path d="M14 9 L18 9 L18 34 L14 34 Z" fill="#6b6455" stroke="%INK%" stroke-width="1.1"/>
+  <path d="M8 33 L22 33 L22 36 L6 36 Z" fill="#3d382e" stroke="%INK%" stroke-width="1"/>
+  <path d="M15 11 L5 6 L4 9 L14 14 Z" fill="#6b6455" stroke="%INK%" stroke-width="1"/>
+  <path d="M1 2 L9 5 L7 11 L0 8 Z" fill="#1e1a15" stroke="%INK%" stroke-width="1.2"/>
+  <ellipse cx="3.5" cy="5" rx="3" ry="2.4" fill="#4a4438"/>
+  <path d="M2.5 4 L5 5" stroke="#8d8570" stroke-width="0.8"/>
 </svg>

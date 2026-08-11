@@ -4,7 +4,6 @@
   "parts": [
     { "name": "body", "src": "parts/body.svg", "pivot": [15, 47], "at": [0, 0],   "z": 2, "rest": 2 },
     { "name": "arm",  "src": "parts/arm.svg",  "pivot": [5, 3],   "at": [9, -38], "parent": "body", "z": 3, "rest": -140 },
-    { "name": "sign", "src": "parts/sign.svg", "pivot": [22, 24], "at": [0, 22],  "parent": "arm",  "z": 4, "rest": 140 },
     { "name": "head", "src": "parts/head.svg", "pivot": [14, 24], "at": [0, -46], "parent": "body", "z": 5, "rest": -3 }
   ]
 }

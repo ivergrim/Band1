@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12">
-  <path d="M1 2 L12 1 L13 10 L2 11 Z" fill="#22201c" stroke="%INK%" stroke-width="1.3"/>
-  <path d="M3 3 L11 2.5 L11 8 L3 8.5 Z" fill="#2f3a2a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15">
+  <!-- Clip-on tuner, drawn hugely oversized because guitar going out of tune is an
+       invisible problem and the object has to carry the state (doc 6.6.6). -->
+  <path d="M1 2 L16 1 L17 13 L2 14 Z" fill="#4d463a" stroke="%INK%" stroke-width="1.4"/>
+  <path d="M3 3 L14 2.4 L14 10 L3 10.6 Z" fill="#2b3a2b"/>
+  <path d="M4 4 L13 3.5 L13 9 L4 9.5 Z" fill="#3f5f3f"/>
+  <path d="M2 13 L16 12 L16 15 L2 15 Z" fill="#2a251d"/>
 </svg>

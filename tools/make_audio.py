@@ -50,6 +50,7 @@ SONG = [
     ("verse2", 8),
     ("chorus2", 8),
     ("solo", 8),
+    ("verse3", 8),
     ("chorus3", 8),
     ("outro", 4),
 ]
@@ -340,7 +341,7 @@ def render_guitar() -> np.ndarray:
     for b in range(4, bars):
         play_bar(start + b, PROGRESSION[(b - 4) % 4], GTR_CHORUS, gain=0.95)
 
-    for name in ("verse1", "verse2"):
+    for name in ("verse1", "verse2", "verse3"):
         start, bars = sec[name]
         for b in range(bars):
             chord = PROGRESSION[b % 4]
@@ -405,7 +406,7 @@ def render_bass() -> np.ndarray:
     for b in range(4, bars):
         play_bar(start + b, PROGRESSION[(b - 4) % 4], BASS_CHORUS, 0.85)
 
-    for name in ("verse1", "verse2"):
+    for name in ("verse1", "verse2", "verse3"):
         start, bars = sec[name]
         for b in range(bars):
             play_bar(start + b, PROGRESSION[b % 4], BASS_VERSE, 0.9)
@@ -456,7 +457,7 @@ def render_drums() -> np.ndarray:
         if b == 4:
             add(buf, C, bar_start(start + b))
 
-    for name in ("verse1", "verse2"):
+    for name in ("verse1", "verse2", "verse3"):
         start, bars = sec[name]
         for b in range(bars):
             if b == bars - 1:
