@@ -45,7 +45,7 @@ is no other tutorial (doc 11):
 
 | Venue | Band | New control | Also |
 |---|---|---|---|
-| PIKE FAMILY GARAGE | Roland (guitar) | fader, master | 8 problems, concurrency 1 |
+| PIKE FAMILY GARAGE | Roland (guitar) | fader, master | 7 problems, concurrency 1 |
 | DENISE'S 40TH | + Bev (drums) | tone | 9 problems |
 | THE SUMP | + Clive (bass) | FX toggle | 12 problems, peak concurrency 2, the beer spill, first gear gate |
 
