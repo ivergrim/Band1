@@ -86,6 +86,8 @@ export class GigScene {
 
   /** Playtest hook: lets a script read demands and drive controls. Not used in play. */
   probe(): {
+    scheduled: number;
+    unfired: number;
     phase: Phase;
     energy: number;
     songTime: number;
@@ -103,6 +105,8 @@ export class GigScene {
       demands.push({ target: 'master', kind: 'master', lo: dm.lo, hi: dm.hi, event: !!dm.owner });
     }
     return {
+      scheduled: this.director ? this.director.timeline.length : 0,
+      unfired: this.director ? this.director.pending.length : 0,
       phase: this.phase,
       energy: this.director ? this.director.energy : 0,
       songTime: this.director ? this.director.songTime : 0,
@@ -414,7 +418,10 @@ export class GigScene {
     put(`t=${audio.songTime.toFixed(1)} / ${songLength().toFixed(0)}`, UI.lampOn);
     put(`out latency ${(audio.outputLatency * 1000).toFixed(1)}ms`, UI.lampOn);
     put(`energy ${this.director.energy.toFixed(1)}  bonus ${this.director.bonusesEarned}`);
-    put(`live ${this.director.live.length}  spill ${this.director.spill ? 'yes' : 'no'}`);
+    put(
+      `live ${this.director.live.length}  unfired ${this.director.pending.length}/` +
+        `${this.director.timeline.length}  spill ${this.director.spill ? 'yes' : 'no'}`,
+    );
     put('--- demands ---', UI.good);
     for (const id of this.venue.band) {
       for (const k of this.venue.controls) {

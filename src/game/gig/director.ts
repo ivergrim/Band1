@@ -87,7 +87,8 @@ export class Director {
   quietUntil = -1;
 
   private clocks = new Map<string, number>();
-  private pending: Scheduled[];
+  /** Beats not yet fired. Should be empty by the end of the song (doc 8.2). */
+  pending: Scheduled[];
   private time = 0;
 
   constructor(
@@ -282,8 +283,12 @@ export class Director {
             // Doc 7.2: the speed bonus. Capped by the ceiling of 100, so on a clean
             // run it does nothing and on a bad one it is the way back.
             const bonus = d.owner.phase === 'setup' ? TIER1.speedBonus : TIER1.payoffBonus;
-            this.energy = Math.min(ENERGY_MAX, this.energy + bonus);
-            this.bonusesEarned += bonus;
+            // Doc 7.2: capped by the ceiling of 100, which gives the bonus a clean
+            // role -- it does nothing on a perfect run and is the way back on a bad
+            // one. Only what actually landed is reported afterwards.
+            const landed = Math.min(bonus, ENERGY_MAX - this.energy);
+            this.energy += landed;
+            this.bonusesEarned += landed;
             d.owner.claimed = true;
           }
           this.clocks.set(key, 0);

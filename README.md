@@ -122,20 +122,27 @@ node tools/playtest.mjs 1.5 garage
 node tools/playtest.mjs 4.5 sump
 ```
 
-Final crowd energy by reaction time, on the current numbers (pass mark is 50):
+Final crowd energy by reaction time, on the current numbers. The pass mark is 50 and
+never moves (doc 7.3); every run fires its whole authored set of problems, which is
+what doc 8.2 promises.
 
-| Reaction | PIKE FAMILY GARAGE | THE SUMP |
-|---|---|---|
-| ≤ 2.5s | 100 | — |
-| 1.5s | 100 | 86 |
-| 4.5s | 87 | 46 |
-| 6s | 62 | — |
-| 8s | 14 | — |
+| Reaction | GARAGE (7 problems) | DENISE'S 40TH (9) | THE SUMP (12) |
+|---|---|---|---|
+| 1.4s | 100 | 100 | 90 |
+| 2.5s | 100 | — | — |
+| 3s | — | 100 | 88 |
+| 4.5s | — | 84 | **46** |
+| 5s | 79 | — | — |
+| 7s | 33 | — | — |
+| 9s | 11 | — | — |
 
-So the tutorial forgives and the tier closer does not, which is the curve the doc asks
-for. The Sump never reaches 100 for this player because the scripted player does not
-wipe the beer spill — interference is not a fader move, which is the point of the
-category (doc 9).
+So the tutorial forgives a five second reaction and the tier closer falls off a cliff
+between three and four and a half, which is the curve the doc asks for: difficulty from
+how many trivial actions are demanded at once, not from any action being hard (doc 2.3).
+
+The Sump caps at ~90 for this player because the scripted player never wipes the beer
+spill — interference is not a fader move, which is the entire point of the category
+(doc 9), and it is worth about ten points of crowd energy if you ignore it.
 
 **Output latency** is measured live rather than assumed: the `F3` overlay reports
 `AudioContext.outputLatency`, and `AudioEngine.songTime` subtracts it so what the

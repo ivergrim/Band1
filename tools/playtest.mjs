@@ -36,7 +36,7 @@ const result = await page.evaluate(async (react) => {
     const s = g.scene;
     if (!s.probe) return { err: 'no probe' };
     const p = s.probe();
-    if (p.phase === 'results') return { energy: p.energy, done: true, ticks };
+    if (p.phase === 'results') return { energy: p.energy, scheduled: p.scheduled, unfired: p.unfired, ticks };
     if (p.phase !== 'playing') { await sleep(100); continue; }
     for (const d of p.demands) {
       const key = `${d.target}:${d.kind}`;

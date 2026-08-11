@@ -17,7 +17,7 @@ import type { EventDef } from './eventTypes';
  */
 
 /** Seconds after a problem ends that its channel stays reserved for the restore. */
-const PAYOFF_RESERVE = 5;
+const PAYOFF_RESERVE = 4;
 
 export type Scheduled = { at: number; def: EventDef };
 

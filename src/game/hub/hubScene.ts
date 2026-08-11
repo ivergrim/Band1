@@ -45,6 +45,8 @@ export class HubScene {
   private flashUntil = 0;
 
   private machineJob: SideJob | null = null;
+  /** What the pointer is over in the office, for the hover label. */
+  private hover: { label: string; x: number; y: number; w: number; h: number } | null = null;
   private machineLine = 0;
   private mapNag: string[] | null = null;
 
@@ -136,6 +138,10 @@ export class HubScene {
     const lines = PITCHES[this.pitchVenue!.id] ?? [];
     this.pitchChars += dt * 58;
     const line = lines[this.pitchLine] ?? '';
+    if (input.keyPressed('Escape')) {
+      this.finishPitch();
+      return;
+    }
     if (input.p.pressed || input.keyPressed('Space')) {
       if (this.pitchChars < line.length) {
         this.pitchChars = line.length;
@@ -144,19 +150,30 @@ export class HubScene {
         this.pitchChars = 0;
         audio.chrome?.blip();
       } else {
-        this.game.save.seen.push(`pitch:${this.pitchVenue!.id}`);
-        this.game.persist();
-        this.pitchVenue = null;
-        this.pitchLine = 0;
-        this.pitchChars = 0;
-        this.mode = 'office';
-        audio.chrome?.confirm();
+        this.finishPitch();
       }
     }
   }
 
+  private finishPitch(): void {
+    this.game.save.seen.push(`pitch:${this.pitchVenue!.id}`);
+    this.game.persist();
+    this.pitchVenue = null;
+    this.pitchLine = 0;
+    this.pitchChars = 0;
+    this.mode = 'office';
+    audio.chrome?.confirm();
+  }
+
   private updateOffice(input: Input): void {
     const p = input.p;
+    this.hover = null;
+    for (const h of OFFICE_HOTSPOTS) {
+      if (input.pointInRect(p.x, p.y, h.x, h.y, h.w, h.h)) {
+        this.hover = h;
+        break;
+      }
+    }
     if (!p.pressed) return;
     if (input.pointInRect(p.x, p.y, 186, 118, 112, 96)) {
       this.mode = 'store';
@@ -417,6 +434,15 @@ export class HubScene {
       jitter: true,
     });
 
+    if (this.mode === 'office' && this.hover) {
+      const h = this.hover;
+      r.stroke(h.x - 2, h.y - 2, h.w + 4, h.h + 4, UI.lampOn);
+      const w = textWidth(h.label) + 6;
+      const lx = Math.max(2, Math.min(VIEW_W - w - 2, h.x + h.w / 2 - w / 2));
+      r.rect_(lx, h.y - 14, w, 10, UI.black);
+      drawText(ctx, h.label, lx + 3, h.y - 12, { colour: UI.lampOn, jitter: true });
+    }
+
     if (this.mode === 'office') {
       const lines = this.lastOutcome && !this.lastOutcome.passed ? BAND_LINES.bad : BAND_LINES.good;
       const idx = Math.floor(this.time / 4) % lines.length;
@@ -451,6 +477,7 @@ export class HubScene {
     if (Math.sin(this.time * 6) > 0) {
       drawText(r.ctx, '>', 444, boxY + 66, { colour: UI.chalkDim });
     }
+    drawText(r.ctx, 'ESC skips him', 450, boxY + 8, { colour: UI.inkFaint, align: 'right' });
   }
 
   /** Doc 13.2: the map shows progression, shows what is locked and why. */
@@ -683,6 +710,17 @@ export class HubScene {
 function sideJobName(id: string): string {
   return SIDE_JOBS.find((j) => j.id === id)?.from ?? id;
 }
+
+/**
+ * The three things on Barry's desk you can use. Doc 13.2: buying, gigs and side jobs
+ * all live on one screen, so they are objects rather than menu items -- which means
+ * they have to announce that they are objects.
+ */
+const OFFICE_HOTSPOTS = [
+  { label: 'HIS COMPUTER', x: 186, y: 118, w: 112, h: 96 },
+  { label: 'MESSAGES', x: 316, y: 176, w: 70, h: 40 },
+  { label: 'GIGS GOING', x: 34, y: 200, w: 76, h: 46 },
+];
 
 /** Pin positions on the drawn map, one per venue. */
 const MAP_PINS = [
