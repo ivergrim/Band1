@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150">
+  <rect width="480" height="150" fill="#16161c"/>
+  <!-- painted-over block wall, low ceiling with joists -->
+  <rect x="0" y="14" width="480" height="102" fill="#2a2c30"/>
+  <g stroke="#22242a" stroke-width="1">
+    <path d="M0 30 H480 M0 46 H480 M0 62 H480 M0 78 H480 M0 94 H480 M0 110 H480"/>
+    <path d="M24 14 V30 M72 14 V30 M120 14 V30 M168 14 V30 M216 14 V30 M264 14 V30 M312 14 V30 M360 14 V30 M408 14 V30 M456 14 V30"/>
+    <path d="M48 30 V46 M96 30 V46 M144 30 V46 M192 30 V46 M240 30 V46 M288 30 V46 M336 30 V46 M384 30 V46 M432 30 V46"/>
+    <path d="M24 46 V62 M72 46 V62 M120 46 V62 M168 46 V62 M216 46 V62 M264 46 V62 M312 46 V62 M360 46 V62 M408 46 V62 M456 46 V62"/>
+    <path d="M48 62 V78 M96 62 V78 M144 62 V78 M192 62 V78 M240 62 V78 M288 62 V78 M336 62 V78 M384 62 V78 M432 62 V78"/>
+    <path d="M24 78 V94 M72 78 V94 M120 78 V94 M168 78 V94 M216 78 V94 M264 78 V94 M312 78 V94 M360 78 V94 M408 78 V94 M456 78 V94"/>
+  </g>
+  <rect x="0" y="0" width="480" height="16" fill="#1e1a18"/>
+  <g fill="#2b2520">
+    <rect x="10" y="0" width="12" height="16"/><rect x="62" y="0" width="12" height="16"/>
+    <rect x="114" y="0" width="12" height="16"/><rect x="166" y="0" width="12" height="16"/>
+    <rect x="218" y="0" width="12" height="16"/><rect x="270" y="0" width="12" height="16"/>
+    <rect x="322" y="0" width="12" height="16"/><rect x="374" y="0" width="12" height="16"/>
+    <rect x="426" y="0" width="12" height="16"/>
+  </g>
+  <!-- pipes running the length of it, dripping somewhere -->
+  <rect x="0" y="18" width="480" height="7" fill="#4d4238" stroke="#241f19" stroke-width="1.2"/>
+  <rect x="0" y="27" width="480" height="4" fill="#3d4a4e"/>
+  <g fill="#5c5044"><rect x="60" y="16" width="8" height="11"/><rect x="220" y="16" width="8" height="11"/><rect x="380" y="16" width="8" height="11"/></g>
+  <path d="M240 25 L240 40" stroke="#3d4a4e" stroke-width="4"/>
+  <circle cx="240" cy="42" r="2.4" fill="#5a7a8a" opacity="0.8"/>
+  <!-- stairs down, top right -->
+  <path d="M396 20 L474 20 L474 116 L360 116 Z" fill="#1a1614"/>
+  <g fill="#3a3028" stroke="#1d1712" stroke-width="1.2">
+    <path d="M400 22 L474 22 L474 32 L392 32 Z"/><path d="M392 34 L474 34 L474 44 L384 44 Z"/>
+    <path d="M384 46 L474 46 L474 56 L376 56 Z"/><path d="M376 58 L474 58 L474 68 L368 68 Z"/>
+    <path d="M368 70 L474 70 L474 80 L360 80 Z"/><path d="M360 82 L474 82 L474 92 L352 92 Z"/>
+  </g>
+  <path d="M356 20 L364 20 L364 116 L356 116 Z" fill="#4a3d2c"/>
+  <rect x="440" y="0" width="34" height="20" fill="#c9c68a" opacity="0.35"/>
+  <!-- boiler with a very old service sticker -->
+  <rect x="24" y="40" width="56" height="76" fill="#4a4a4e" stroke="#22201c" stroke-width="1.8"/>
+  <rect x="30" y="46" width="44" height="26" fill="#5c5c60"/>
+  <rect x="34" y="50" width="16" height="14" fill="#22242a"/>
+  <circle cx="62" cy="57" r="6" fill="#33342f" stroke="#1d1a16" stroke-width="1.2"/>
+  <rect x="30" y="78" width="44" height="30" fill="#3f3f43"/>
+  <rect x="36" y="84" width="18" height="10" fill="#c4b47e"/>
+  <path d="M40 25 L40 40 M64 25 L64 40" stroke="#3d4a4e" stroke-width="4"/>
+  <!-- washing machine with a suspicious puddle -->
+  <rect x="92" y="66" width="48" height="50" fill="#c9c6b4" stroke="#22201c" stroke-width="1.8"/>
+  <rect x="96" y="70" width="40" height="8" fill="#a8a595"/>
+  <circle cx="116" cy="96" r="14" fill="#5c5c60" stroke="#22201c" stroke-width="1.6"/>
+  <circle cx="116" cy="96" r="9" fill="#2a2c30"/>
+  <ellipse cx="118" cy="120" rx="22" ry="5" fill="#232a2e" opacity="0.8"/>
+  <!-- meter cupboard and a dartboard nobody uses well -->
+  <rect x="160" y="40" width="40" height="34" fill="#3d3226" stroke="#1d1712" stroke-width="1.6"/>
+  <g fill="#c4b47e"><rect x="166" y="46" width="12" height="8"/><rect x="182" y="46" width="12" height="8"/></g>
+  <g fill="#5a4a2c"><rect x="166" y="60" width="28" height="4"/><rect x="166" y="66" width="20" height="4"/></g>
+  <circle cx="272" cy="56" r="20" fill="#2a2420" stroke="#1a1512" stroke-width="1.6"/>
+  <circle cx="272" cy="56" r="14" fill="#c9bd94"/>
+  <circle cx="272" cy="56" r="8" fill="#7a2c24"/>
+  <circle cx="272" cy="56" r="3" fill="#2c4a2c"/>
+  <path d="M290 44 L302 36 M292 70 L306 76" stroke="#8d8b74" stroke-width="1.6"/>
+  <!-- shelf of christmas, permanently -->
+  <rect x="300" y="52" width="52" height="4" fill="#4a3f2e" stroke="#221d16" stroke-width="1"/>
+  <g stroke="#1d1a14" stroke-width="1">
+    <rect x="304" y="40" width="18" height="12" fill="#6b2c34"/><rect x="326" y="42" width="14" height="10" fill="#2c4a2c"/>
+    <rect x="342" y="38" width="10" height="14" fill="#8d7a3c"/>
+  </g>
+  <!-- insulation sagging out of the ceiling -->
+  <path d="M150 16 L190 16 L186 26 L154 26 Z" fill="#a89b7c" opacity="0.6"/>
+  <path d="M300 16 L336 16 L330 24 L306 24 Z" fill="#a89b7c" opacity="0.5"/>
+  <!-- floor: painted concrete, taped-down cables -->
+  <rect x="0" y="112" width="480" height="38" fill="#33342f"/>
+  <rect x="0" y="112" width="480" height="4" fill="#22231f"/>
+  <path d="M0 132 H480" stroke="#2c2d29" stroke-width="2"/>
+  <path d="M20 116 L28 150 M200 118 L196 150 M340 116 L348 150" stroke="#2b2c28" stroke-width="1.6" fill="none"/>
+  <g fill="#4a4438" opacity="0.85">
+    <rect x="150" y="126" width="26" height="5"/><rect x="230" y="134" width="26" height="5"/><rect x="310" y="122" width="26" height="5"/>
+  </g>
+</svg>

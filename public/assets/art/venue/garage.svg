@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150">
+  <rect width="480" height="150" fill="#1b1a20"/>
+  <!-- breeze block wall -->
+  <rect x="0" y="0" width="480" height="118" fill="#2d2b2e"/>
+  <g stroke="#232125" stroke-width="1">
+    <path d="M0 14 H480 M0 28 H480 M0 42 H480 M0 56 H480 M0 70 H480 M0 84 H480 M0 98 H480 M0 112 H480"/>
+    <path d="M18 0 V14 M58 0 V14 M98 0 V14 M138 0 V14 M178 0 V14 M218 0 V14 M258 0 V14 M298 0 V14 M338 0 V14 M378 0 V14 M418 0 V14 M458 0 V14"/>
+    <path d="M38 14 V28 M78 14 V28 M118 14 V28 M158 14 V28 M198 14 V28 M238 14 V28 M278 14 V28 M318 14 V28 M358 14 V28 M398 14 V28 M438 14 V28 M478 14 V28"/>
+    <path d="M18 28 V42 M58 28 V42 M98 28 V42 M138 28 V42 M178 28 V42 M218 28 V42 M258 28 V42 M298 28 V42 M338 28 V42 M378 28 V42 M418 28 V42 M458 28 V42"/>
+    <path d="M38 42 V56 M78 42 V56 M118 42 V56 M158 42 V56 M198 42 V56 M238 42 V56 M278 42 V56 M318 42 V56 M358 42 V56 M398 42 V56 M438 42 V56 M478 42 V56"/>
+    <path d="M18 56 V70 M58 56 V70 M98 56 V70 M138 56 V70 M178 56 V70 M218 56 V70 M258 56 V70 M298 56 V70 M338 56 V70 M378 56 V70 M418 56 V70 M458 56 V70"/>
+    <path d="M38 70 V84 M78 70 V84 M118 70 V84 M158 70 V84 M198 70 V84 M238 70 V84 M278 70 V84 M318 70 V84 M358 70 V84 M398 70 V84 M438 70 V84 M478 70 V84"/>
+    <path d="M18 84 V98 M58 84 V98 M98 84 V98 M138 84 V98 M178 84 V98 M218 84 V98 M258 84 V98 M298 84 V98 M338 84 V98 M378 84 V98 M418 84 V98 M458 84 V98"/>
+    <path d="M38 98 V112 M78 98 V112 M118 98 V112 M158 98 V112 M198 98 V112 M238 98 V112 M278 98 V112 M318 98 V112 M358 98 V112 M398 98 V112 M438 98 V112 M478 98 V112"/>
+  </g>
+  <!-- damp patch, because of course -->
+  <path d="M300 0 L340 4 L352 26 L330 40 L296 30 L288 12 Z" fill="#26282c" opacity="0.9"/>
+  <path d="M310 6 L332 10 L338 24 L318 32 L304 22 Z" fill="#2a2d30" opacity="0.8"/>
+  <!-- up-and-over door, shut -->
+  <rect x="16" y="6" width="150" height="106" fill="#3a3630" stroke="#1d1a16" stroke-width="2"/>
+  <g fill="#443f37">
+    <rect x="20" y="10" width="142" height="14"/><rect x="20" y="28" width="142" height="14"/>
+    <rect x="20" y="46" width="142" height="14"/><rect x="20" y="64" width="142" height="14"/>
+    <rect x="20" y="82" width="142" height="14"/><rect x="20" y="100" width="142" height="8"/>
+  </g>
+  <g stroke="#2a261f" stroke-width="1"><path d="M20 24 H162 M20 42 H162 M20 60 H162 M20 78 H162 M20 96 H162"/></g>
+  <rect x="80" y="52" width="22" height="6" fill="#22201c"/>
+  <path d="M30 12 L52 12 L52 22 L30 22 Z" fill="#5a4a2c" opacity="0.7"/>
+  <path d="M120 88 L150 90 L148 104 L118 102 Z" fill="#4a4038" opacity="0.6"/>
+  <!-- strip light, dead flies included -->
+  <rect x="196" y="2" width="120" height="9" fill="#585245" stroke="#22201c" stroke-width="1.5"/>
+  <rect x="200" y="4" width="112" height="5" fill="#c9c6a8"/>
+  <rect x="228" y="4" width="20" height="5" fill="#8d8b74"/>
+  <!-- shelving, right -->
+  <rect x="370" y="16" width="104" height="4" fill="#4a3f2e" stroke="#221d16" stroke-width="1"/>
+  <rect x="370" y="46" width="104" height="4" fill="#4a3f2e" stroke="#221d16" stroke-width="1"/>
+  <rect x="372" y="18" width="4" height="32" fill="#3a3126"/>
+  <rect x="466" y="18" width="4" height="32" fill="#3a3126"/>
+  <g stroke="#1d1a14" stroke-width="1">
+    <rect x="380" y="4" width="14" height="12" fill="#6b5a2c"/><rect x="398" y="6" width="12" height="10" fill="#4a5a3a"/>
+    <rect x="414" y="2" width="16" height="14" fill="#7a4a2c"/><rect x="436" y="7" width="11" height="9" fill="#3a4a5a"/>
+    <rect x="452" y="4" width="14" height="12" fill="#5a3a4a"/>
+    <rect x="378" y="34" width="18" height="12" fill="#4a4438"/><rect x="402" y="36" width="14" height="10" fill="#6b5a2c"/>
+    <rect x="422" y="32" width="20" height="14" fill="#3a4a3a"/><rect x="448" y="37" width="16" height="9" fill="#5a4a3a"/>
+  </g>
+  <!-- water heater -->
+  <rect x="336" y="52" width="30" height="60" rx="3" fill="#4a4a4e" stroke="#22201c" stroke-width="1.6"/>
+  <rect x="340" y="58" width="22" height="10" fill="#5c5c60"/>
+  <circle cx="351" cy="82" r="5" fill="#33342f"/>
+  <path d="M344 46 L344 52 M358 46 L358 52" stroke="#5c5c60" stroke-width="3"/>
+  <path d="M336 100 L366 100" stroke="#2a2a26" stroke-width="2"/>
+  <!-- bike on the wall -->
+  <g stroke="#1d1a16" stroke-width="1.6" fill="none">
+    <circle cx="200" cy="40" r="14" stroke="#3a3a3e"/><circle cx="238" cy="40" r="14" stroke="#3a3a3e"/>
+    <path d="M200 40 L216 26 L238 40 L216 40 Z" stroke="#6b3a2c"/>
+    <path d="M216 26 L222 18 L232 18" stroke="#6b3a2c"/>
+  </g>
+  <!-- peeling poster -->
+  <rect x="264" y="52" width="52" height="46" fill="#c4b47e" stroke="#22201c" stroke-width="1.4"/>
+  <path d="M264 52 L280 52 L272 62 Z" fill="#2d2b2e"/>
+  <g fill="#3a2418"><rect x="270" y="60" width="40" height="5"/><rect x="270" y="70" width="28" height="4"/><rect x="270" y="78" width="34" height="3"/><rect x="270" y="86" width="20" height="3"/></g>
+  <rect x="286" y="66" width="24" height="20" fill="#7a3a2c" opacity="0.6"/>
+  <!-- floor: cracked concrete, oil stain -->
+  <rect x="0" y="112" width="480" height="38" fill="#3a3833"/>
+  <rect x="0" y="112" width="480" height="4" fill="#28261f"/>
+  <path d="M0 128 L120 124 L240 130 L360 125 L480 131" stroke="#332f29" stroke-width="2" fill="none"/>
+  <path d="M60 116 L74 138 L58 150 M300 118 L312 140 M420 120 L410 148" stroke="#302d27" stroke-width="1.6" fill="none"/>
+  <ellipse cx="150" cy="138" rx="40" ry="9" fill="#2b2825" opacity="0.85"/>
+  <ellipse cx="150" cy="137" rx="24" ry="5" fill="#252220" opacity="0.9"/>
+  <!-- lawnmower, shoved aside -->
+  <path d="M400 96 L444 94 L448 112 L398 113 Z" fill="#5a3a2c" stroke="#22201c" stroke-width="1.6"/>
+  <path d="M406 100 L438 99 L438 106 L406 107 Z" fill="#7a4d38"/>
+  <circle cx="406" cy="114" r="6" fill="#2a2724" stroke="#1a1815" stroke-width="1.4"/>
+  <circle cx="442" cy="113" r="6" fill="#2a2724" stroke="#1a1815" stroke-width="1.4"/>
+  <path d="M444 94 L466 74" stroke="#4a4438" stroke-width="3"/>
+  <!-- paint tins on the floor and a coil of hose -->
+  <rect x="336" y="118" width="16" height="18" fill="#6b5a2c" stroke="#22201c" stroke-width="1.3"/>
+  <rect x="336" y="118" width="16" height="4" fill="#8d7a3c"/>
+  <rect x="354" y="124" width="13" height="13" fill="#3a5a4a" stroke="#22201c" stroke-width="1.3"/>
+  <g fill="none" stroke="#2c4438" stroke-width="3">
+    <circle cx="26" cy="132" r="12"/><circle cx="26" cy="132" r="7"/>
+  </g>
+</svg>

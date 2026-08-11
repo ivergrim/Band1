@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+  <!-- Dinner-plate knob with a painted pointer, per 6.6.3: a rotating knob is only
+       readable if the knob is enormous and the pointer is painted on. -->
+  <circle cx="6.5" cy="6.5" r="6" fill="#d8cdb0" stroke="%INK%" stroke-width="1.4"/>
+  <circle cx="6.5" cy="6.5" r="3.4" fill="#a89b7c"/>
+  <path d="M5.6 1 L7.4 1 L7 6.5 L6 6.5 Z" fill="#191208"/>
+</svg>

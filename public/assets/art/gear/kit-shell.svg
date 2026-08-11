@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="34" viewBox="0 0 56 34">
+  <!-- One person, one channel (rule 16): this is the whole kit, not three sources.
+       Held together with tape, as befits a garage. -->
+  <path d="M14 8 L42 6 L44 31 L13 33 Z" fill="%DARK%" stroke="%INK%" stroke-width="1.6"/>
+  <ellipse cx="28" cy="19" rx="14" ry="12" fill="#c9bd94" stroke="%INK%" stroke-width="1.4"/>
+  <ellipse cx="28" cy="19" rx="10" ry="8.6" fill="#ddd2a8"/>
+  <path d="M18 12 L26 26" stroke="#a89b7c" stroke-width="1.2"/>
+  <path d="M2 14 L14 12 L15 24 L2 25 Z" fill="%BASE%" stroke="%INK%" stroke-width="1.4"/>
+  <ellipse cx="8" cy="13" rx="6.4" ry="2.4" fill="#e8dcc0" stroke="%INK%" stroke-width="1"/>
+  <path d="M42 15 L54 14 L54 24 L42 24 Z" fill="%BASE%" stroke="%INK%" stroke-width="1.4"/>
+  <ellipse cx="48" cy="14.5" rx="6" ry="2.2" fill="#e8dcc0" stroke="%INK%" stroke-width="1"/>
+  <path d="M20 30 L36 29 L36 33 L20 34 Z" fill="#2a241d"/>
+  <path d="M31 9 L39 8 L39 11 L31 12 Z" fill="#9a8f76" opacity="0.8"/>
+  <path d="M16 24 L23 23 L23 26 L16 27 Z" fill="#9a8f76" opacity="0.8"/>
+</svg>

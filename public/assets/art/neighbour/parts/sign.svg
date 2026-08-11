@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="26" viewBox="0 0 46 26">
+  <!-- The cue states a GOAL, not a control (doc 2.4). He wants it quieter; which
+       knob does that is the player's problem, and that is why this is legible. -->
+  <path d="M2 2 L43 1 L45 22 L3 24 Z" fill="#e5d9a8" stroke="%INK%" stroke-width="1.6"/>
+  <path d="M5 5 L11 5 L11 8 L5 8 Z M13 5 L19 5 L19 8 L13 8 Z M21 5 L27 5 L27 8 L21 8 Z M29 5 L40 5 L40 8 L29 8 Z" fill="#22201c"/>
+  <path d="M5 11 L14 11 L14 14 L5 14 Z M16 11 L28 11 L28 14 L16 14 Z" fill="#22201c"/>
+  <path d="M5 17 L24 17 L24 20 L5 20 Z" fill="#c33"/>
+  <path d="M20 22 L24 22 L24 26 L20 26 Z" fill="#8a6a3a"/>
+</svg>

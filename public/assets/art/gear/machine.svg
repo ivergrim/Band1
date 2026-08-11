@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="34" viewBox="0 0 66 34">
+  <!-- Answering machine. Side jobs arrive here (doc 16.1). -->
+  <path d="M2 8 L62 5 L64 30 L4 33 Z" fill="#3a3630" stroke="#1a1815" stroke-width="2"/>
+  <path d="M6 10 L58 8 L59 20 L7 22 Z" fill="#4a463d"/>
+  <path d="M10 12 L26 11 L26 18 L10 19 Z" fill="#1a1c19"/>
+  <path d="M12 13 L18 12.6 L18 16 L12 16.4 Z" fill="#5fd35a"/>
+  <g fill="#8d8878" stroke="#1a1815" stroke-width="0.9">
+    <rect x="32" y="11" width="8" height="6"/><rect x="43" y="10" width="8" height="6"/>
+  </g>
+  <g fill="#c4b47e"><rect x="10" y="24" width="14" height="4"/><rect x="28" y="23" width="10" height="4"/></g>
+  <circle cx="54" cy="14" r="3" fill="#7a2c24"/>
+</svg>

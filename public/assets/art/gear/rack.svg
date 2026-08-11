@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" viewBox="0 0 46 20">
+  <!-- The board's own effects rack, bolted to the end of the desk. This is what the
+       FX toggle switches; the band's pedals are none of the player's business (5.2). -->
+  <path d="M1 2 L44 1 L45 18 L2 19 Z" fill="#2e2a24" stroke="%INK%" stroke-width="1.5"/>
+  <path d="M3 4 L42 3 L42 16 L4 17 Z" fill="#3f3a31"/>
+  <path d="M6 6 L24 5 L24 11 L6 12 Z" fill="#141210"/>
+  <path d="M7 7 L15 6.6 L15 8 L7 8.4 Z" fill="#5fd35a" opacity="0.85"/>
+  <circle cx="31" cy="8" r="3.4" fill="#c9bd94" stroke="%INK%" stroke-width="0.9"/>
+  <circle cx="38" cy="8" r="3.4" fill="#c9bd94" stroke="%INK%" stroke-width="0.9"/>
+  <path d="M2 1 L4 1 L4 19 L2 19 Z" fill="#6d6152"/>
+  <path d="M42 1 L44 1 L44 19 L42 19 Z" fill="#6d6152"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <!-- Bassist is on a DI, so his position on stage is irrelevant to his signal
+       (8.1b). What is not irrelevant is the pad switch. -->
+  <path d="M1 4 L22 2 L23 16 L2 17 Z" fill="#40485a" stroke="%INK%" stroke-width="1.5"/>
+  <path d="M3 5 L20 3.5 L20 9 L3 10 Z" fill="#54607a"/>
+  <path d="M4 12 L11 11 L11 15 L4 15 Z" fill="#252a34"/>
+  <path d="M18 11 L22 11 L22 15 L18 15 Z" fill="#1c2028"/>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "id": "guitarist",
+  "size": [48, 78],
+  "parts": [
+    { "name": "armFar",  "src": "parts/arm-far.svg",   "pivot": [5, 3],   "at": [-9, -27], "parent": "torso", "z": 1, "rest": 22 },
+    { "name": "legs",    "src": "parts/legs.svg",      "pivot": [13, 27], "at": [0, 0],    "z": 2 },
+    { "name": "torso",   "src": "parts/torso.svg",     "pivot": [15, 31], "at": [1, -25],  "z": 3, "rest": -4 },
+    { "name": "guitar",  "src": "parts/guitar.svg",    "pivot": [36, 10], "at": [7, -17],  "parent": "torso", "z": 4, "rest": -14 },
+    { "name": "armNear", "src": "parts/arm-near.svg",  "pivot": [5, 3],   "at": [8, -25],  "parent": "torso", "z": 5, "rest": -18 },
+    { "name": "head",    "src": "parts/head.svg",      "pivot": [15, 26], "at": [2, -30],  "parent": "torso", "z": 6, "rest": -6 },
+    { "name": "facePlay",   "src": "parts/face-play.svg",   "pivot": [9, 6], "at": [1, -14], "parent": "head", "z": 7 },
+    { "name": "faceStrain", "src": "parts/face-strain.svg", "pivot": [9, 6], "at": [1, -14], "parent": "head", "z": 7 },
+    { "name": "faceOops",   "src": "parts/face-oops.svg",   "pivot": [9, 6], "at": [1, -14], "parent": "head", "z": 7 }
+  ]
+}

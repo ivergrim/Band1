@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270">
+  <rect width="480" height="270" fill="#1c1720"/>
+  <!-- Doc 13.4: one screen, not a walkable scene. So it has to earn its detail. -->
+  <rect x="0" y="0" width="480" height="196" fill="#4a3d2e"/>
+  <g fill="#54462f"><rect x="0" y="0" width="480" height="8"/><rect x="0" y="188" width="480" height="8"/></g>
+  <g stroke="#3d3226" stroke-width="1">
+    <path d="M0 40 H480 M0 96 H480 M0 152 H480"/>
+    <path d="M64 0 V196 M128 0 V196 M192 0 V196 M256 0 V196 M320 0 V196 M384 0 V196 M448 0 V196"/>
+  </g>
+  <!-- window with venetian blinds, half shut, sodium light outside -->
+  <rect x="26" y="26" width="118" height="86" fill="#2a2418" stroke="#1d1712" stroke-width="3"/>
+  <rect x="32" y="32" width="106" height="74" fill="#6b4a1c"/>
+  <rect x="32" y="32" width="106" height="74" fill="#8d5f22" opacity="0.5"/>
+  <g fill="#4a3f2e"><rect x="60" y="60" width="8" height="46"/><rect x="100" y="52" width="10" height="54"/></g>
+  <g fill="#3d3226">
+    <rect x="32" y="32" width="106" height="5"/><rect x="32" y="41" width="106" height="5"/>
+    <rect x="32" y="50" width="106" height="5"/><rect x="32" y="59" width="106" height="5"/>
+    <rect x="32" y="68" width="106" height="5"/>
+  </g>
+  <rect x="32" y="30" width="106" height="4" fill="#584a37"/>
+  <!-- a gold record that is a normal record with paint on it -->
+  <rect x="326" y="24" width="76" height="76" fill="#3a2c1e" stroke="#1d1712" stroke-width="2.4"/>
+  <rect x="332" y="30" width="64" height="64" fill="#6b5a3c"/>
+  <circle cx="364" cy="62" r="26" fill="#c9a44c"/>
+  <circle cx="364" cy="62" r="24" fill="none" stroke="#a8853a" stroke-width="1"/>
+  <circle cx="364" cy="62" r="18" fill="none" stroke="#a8853a" stroke-width="1"/>
+  <circle cx="364" cy="62" r="9" fill="#7a2c24"/>
+  <circle cx="364" cy="62" r="2" fill="#2a2420"/>
+  <rect x="340" y="88" width="48" height="6" fill="#c4b47e"/>
+  <!-- motivational poster, corner gone -->
+  <rect x="196" y="30" width="86" height="62" fill="#3a4a5a" stroke="#1d1712" stroke-width="2"/>
+  <path d="M266 30 L282 30 L282 46 Z" fill="#4a3d2e"/>
+  <ellipse cx="239" cy="56" rx="30" ry="16" fill="#5c7a94"/>
+  <path d="M212 62 L266 62 L262 74 L216 74 Z" fill="#2a3a48"/>
+  <g fill="#c9c6b4"><rect x="214" y="80" width="50" height="4"/><rect x="222" y="86" width="34" height="3"/></g>
+  <!-- filing cabinet, top drawer permanently open -->
+  <rect x="410" y="96" width="66" height="100" fill="#4a4a4e" stroke="#22201c" stroke-width="2"/>
+  <g fill="#5c5c60" stroke="#2a2a26" stroke-width="1.4">
+    <rect x="416" y="102" width="54" height="26"/><rect x="416" y="134" width="54" height="26"/><rect x="416" y="166" width="54" height="24"/>
+  </g>
+  <g fill="#33342f"><rect x="432" y="112" width="22" height="5"/><rect x="432" y="144" width="22" height="5"/><rect x="432" y="175" width="22" height="5"/></g>
+  <path d="M412 96 L474 96 L470 88 L416 88 Z" fill="#5c5c60"/>
+  <g fill="#c4b47e"><rect x="424" y="82" width="12" height="8"/><rect x="440" y="80" width="12" height="10"/><rect x="456" y="83" width="10" height="7"/></g>
+  <!-- a plant that gave up -->
+  <path d="M156 156 L184 156 L180 190 L160 190 Z" fill="#7a4a2c" stroke="#22201c" stroke-width="1.6"/>
+  <path d="M170 156 L168 128 M170 140 L156 122 M170 138 L186 120 M170 148 L160 138 M170 146 L182 136"
+        stroke="#4a5a30" stroke-width="2.6" fill="none"/>
+  <path d="M156 122 L150 116 L158 118 Z M186 120 L192 114 L186 112 Z" fill="#3d4a28"/>
+  <!-- desk. Everything the hub does happens on it (13.2, 13.3). -->
+  <rect x="0" y="196" width="480" height="74" fill="#2a2018"/>
+  <rect x="0" y="196" width="480" height="12" fill="#5a4430" stroke="#1d1510" stroke-width="2"/>
+  <rect x="0" y="208" width="480" height="6" fill="#3d2c1e"/>
+  <g stroke="#4a3524" stroke-width="1">
+    <path d="M0 200 H480 M0 204 H480"/>
+  </g>
+  <rect x="0" y="214" width="480" height="56" fill="#241a12"/>
+  <g fill="#2f2218"><rect x="30" y="220" width="130" height="46"/><rect x="330" y="220" width="130" height="46"/></g>
+  <g fill="#1a120c"><rect x="36" y="228" width="118" height="4"/><rect x="336" y="228" width="118" height="4"/></g>
+  <!-- coffee rings, cigarette burns -->
+  <g fill="none" stroke="#4a3524" stroke-width="1.6" opacity="0.7">
+    <circle cx="188" cy="202" r="7"/><circle cx="206" cy="204" r="5"/>
+  </g>
+  <ellipse cx="264" cy="203" rx="5" ry="2" fill="#1d1510" opacity="0.8"/>
+</svg>

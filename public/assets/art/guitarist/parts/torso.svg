@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32">
+  <!-- Wedge shoulders, one higher than the other. Band shirt he has never washed. -->
+  <path d="M4 5 L18 1 L27 7 L25 30 L6 31 Z" fill="%BASE%" stroke="%INK%" stroke-width="1.5"/>
+  <path d="M6 8 L14 6 L13 29 L7 29 Z" fill="%LIGHT%" opacity="0.45"/>
+  <path d="M17 10 L23 9 L22 20 L16 20 Z" fill="%DARK%"/>
+  <path d="M18 12 L21 11 L20 18 L18 18 Z" fill="%LIGHT%"/>
+  <path d="M5 24 L25 23 L25 27 L5 28 Z" fill="%DARK%" opacity="0.6"/>
+  <path d="M9 2 L13 8 L18 3" fill="none" stroke="#c78f57" stroke-width="2.4"/>
+</svg>

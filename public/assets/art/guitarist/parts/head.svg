@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="0 0 32 28">
+  <!-- Head far too large, trapezoid, asymmetric. Nose juts past the skull. -->
+  <path d="M3 9 L27 11 L25 25 L9 26 Z" fill="#d9a267" stroke="%INK%" stroke-width="1.5"/>
+  <path d="M25 14 L32 18 L24 20 Z" fill="#d9a267" stroke="%INK%" stroke-width="1.2"/>
+  <path d="M3 14 L0 18 L4 21 Z" fill="#c78f57" stroke="%INK%" stroke-width="1.1"/>
+  <path d="M2 8 L5 1 L12 5 L17 0 L24 3 L29 9 L27 13 L4 12 Z" fill="#2b1d12"/>
+  <path d="M6 3 L2 12 L5 12 Z" fill="#3d2a1a"/>
+  <path d="M9 25 L23 24 L22 26 L10 27 Z" fill="#a86f3f"/>
+</svg>

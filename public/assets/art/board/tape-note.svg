@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="26" viewBox="0 0 34 26">
+  <!-- Doc 5.2: a control that has not arrived yet is not greyed out, it is a hole
+       with a scrawled note taped over it. -->
+  <path d="M2 3 L31 1 L33 23 L4 25 Z" fill="#d9cfa4" stroke="#8d8156" stroke-width="1.2"/>
+  <path d="M0 2 L12 0 L13 5 L1 7 Z" fill="#c9bd94" opacity="0.85"/>
+  <path d="M22 20 L34 18 L34 23 L23 25 Z" fill="#c9bd94" opacity="0.85"/>
+  <path d="M6 8 L26 6" stroke="#4a4230" stroke-width="1.4"/>
+  <path d="M6 13 L22 11" stroke="#4a4230" stroke-width="1.4"/>
+  <path d="M6 18 L18 16" stroke="#4a4230" stroke-width="1.4"/>
+</svg>

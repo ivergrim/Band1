@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="94" viewBox="0 0 112 94">
+  <!-- Milky-grey plastic. Doc 13.3: the store IS this object, facing him, until
+       you click it and it swivels. -->
+  <path d="M6 4 L104 2 L108 76 L4 78 Z" fill="#b8b2a0" stroke="#3d3a33" stroke-width="2.4"/>
+  <path d="M10 8 L100 6 L102 68 L8 70 Z" fill="#a29c8c"/>
+  <path d="M14 12 L96 10 L98 60 L12 62 Z" fill="#2a2c28" stroke="#1a1c19" stroke-width="2"/>
+  <path d="M16 14 L94 12 L96 58 L14 60 Z" fill="#3a4038"/>
+  <path d="M22 64 L52 63 L52 68 L22 69 Z" fill="#8d8878"/>
+  <circle cx="90" cy="66" r="3.4" fill="#5a5648"/>
+  <path d="M36 78 L78 77 L82 88 L32 89 Z" fill="#a29c8c" stroke="#3d3a33" stroke-width="2"/>
+  <path d="M20 88 L94 87 L98 93 L16 94 Z" fill="#b8b2a0" stroke="#3d3a33" stroke-width="2"/>
+</svg>

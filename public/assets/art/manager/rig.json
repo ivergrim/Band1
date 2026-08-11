@@ -1,0 +1,13 @@
+{
+  "id": "manager",
+  "size": [70, 96],
+  "parts": [
+    { "name": "armFar",  "src": "parts/arm-far.svg",  "pivot": [7, 4],  "at": [-19, -38], "parent": "torso", "z": 1, "rest": 14 },
+    { "name": "torso",   "src": "parts/torso.svg",    "pivot": [28, 45], "at": [0, 0],    "z": 2, "rest": -3 },
+    { "name": "armNear", "src": "parts/arm-near.svg", "pivot": [7, 4],  "at": [20, -37],  "parent": "torso", "z": 5, "rest": -20 },
+    { "name": "head",    "src": "parts/head.svg",     "pivot": [23, 38], "at": [0, -44],  "parent": "torso", "z": 6, "rest": 4 },
+    { "name": "facePitch",  "src": "parts/face-pitch.svg",  "pivot": [15, 9], "at": [1, -20], "parent": "head", "z": 7 },
+    { "name": "faceShifty", "src": "parts/face-shifty.svg", "pivot": [15, 9], "at": [1, -20], "parent": "head", "z": 7 },
+    { "name": "faceAlarm",  "src": "parts/face-alarm.svg",  "pivot": [15, 9], "at": [1, -20], "parent": "head", "z": 7 }
+  ]
+}

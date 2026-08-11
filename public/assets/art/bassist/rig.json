@@ -1,0 +1,14 @@
+{
+  "id": "bassist",
+  "size": [56, 80],
+  "parts": [
+    { "name": "armFar",  "src": "parts/arm-far.svg",  "pivot": [5, 3],   "at": [-8, -29], "parent": "torso", "z": 1, "rest": 26 },
+    { "name": "legs",    "src": "parts/legs.svg",     "pivot": [12, 25], "at": [0, 0],    "z": 2 },
+    { "name": "torso",   "src": "parts/torso.svg",    "pivot": [15, 33], "at": [0, -24],  "z": 3, "rest": 3 },
+    { "name": "bass",    "src": "parts/bass.svg",     "pivot": [42, 10], "at": [8, -18],  "parent": "torso", "z": 4, "rest": -10 },
+    { "name": "armNear", "src": "parts/arm-near.svg", "pivot": [5, 3],   "at": [7, -28],  "parent": "torso", "z": 5, "rest": -14 },
+    { "name": "head",    "src": "parts/head.svg",     "pivot": [15, 28], "at": [1, -33],  "parent": "torso", "z": 6, "rest": 4 },
+    { "name": "facePlay",  "src": "parts/face-play.svg",  "pivot": [9, 6], "at": [1, -15], "parent": "head", "z": 7 },
+    { "name": "faceBlank", "src": "parts/face-blank.svg", "pivot": [9, 6], "at": [1, -15], "parent": "head", "z": 7 }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "drummer",
+  "size": [40, 62],
+  "parts": [
+    { "name": "armFar",  "src": "parts/arm-far.svg",  "pivot": [5, 3],   "at": [-9, -23], "parent": "torso", "z": 1, "rest": -38 },
+    { "name": "stickFar","src": "parts/stick.svg",    "pivot": [2, 3],   "at": [1, 16],   "parent": "armFar", "z": 2, "rest": -30 },
+    { "name": "legs",    "src": "parts/legs.svg",     "pivot": [17, 22], "at": [0, 0],    "z": 3 },
+    { "name": "torso",   "src": "parts/torso.svg",    "pivot": [16, 27], "at": [0, -19],  "z": 4, "rest": 3 },
+    { "name": "armNear", "src": "parts/arm-near.svg", "pivot": [5, 3],   "at": [10, -22], "parent": "torso", "z": 5, "rest": 34 },
+    { "name": "stickNear","src": "parts/stick.svg",   "pivot": [2, 3],   "at": [1, 16],   "parent": "armNear", "z": 6, "rest": 26 },
+    { "name": "head",    "src": "parts/head.svg",     "pivot": [15, 25], "at": [1, -27],  "parent": "torso", "z": 7, "rest": 2 },
+    { "name": "facePlay",    "src": "parts/face-play.svg",    "pivot": [9, 6], "at": [0, -13], "parent": "head", "z": 8 },
+    { "name": "faceAsleep",  "src": "parts/face-asleep.svg",  "pivot": [9, 6], "at": [0, -13], "parent": "head", "z": 8 },
+    { "name": "faceStartle", "src": "parts/face-startle.svg", "pivot": [9, 6], "at": [0, -13], "parent": "head", "z": 8 }
+  ]
+}

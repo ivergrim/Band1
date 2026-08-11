@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="44" viewBox="0 0 24 44">
+  <!-- One PA stack per channel, in the channel's colour. Everything the board is
+       currently doing is drawn coming out of these (6.5). -->
+  <path d="M2 2 L21 1 L22 42 L3 43 Z" fill="#241f1a" stroke="%INK%" stroke-width="1.6"/>
+  <path d="M4 4 L19 3 L20 20 L5 21 Z" fill="#332c24"/>
+  <circle cx="12" cy="12" r="6" fill="#15110d"/>
+  <circle cx="12" cy="12" r="2.6" fill="%DARK%"/>
+  <path d="M4 23 L19 22 L20 40 L5 41 Z" fill="#332c24"/>
+  <circle cx="12" cy="31" r="6" fill="#15110d"/>
+  <circle cx="12" cy="31" r="2.6" fill="%DARK%"/>
+  <path d="M2 20 L22 19 L22 23 L2 24 Z" fill="%BASE%"/>
+  <path d="M4 21 L11 20.6 L11 22 L4 22.4 Z" fill="%LIGHT%"/>
+</svg>

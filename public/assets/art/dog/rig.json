@@ -1,0 +1,10 @@
+{
+  "id": "dog",
+  "size": [40, 30],
+  "parts": [
+    { "name": "legs", "src": "parts/legs.svg", "pivot": [15, 12], "at": [0, 0], "z": 1 },
+    { "name": "tail", "src": "parts/tail.svg", "pivot": [12, 4],  "at": [-14, -14], "parent": "body", "z": 2, "rest": -18 },
+    { "name": "body", "src": "parts/body.svg", "pivot": [17, 18], "at": [0, -10], "z": 3 },
+    { "name": "head", "src": "parts/head.svg", "pivot": [4, 14],  "at": [12, -13], "parent": "body", "z": 4 }
+  ]
+}

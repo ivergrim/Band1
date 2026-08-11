@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" viewBox="0 0 48 36">
+  <!-- Guitar combo, mic'd on the cone. Oversized: it causes events. -->
+  <path d="M2 3 L45 1 L46 34 L3 35 Z" fill="#2a2018" stroke="%INK%" stroke-width="1.6"/>
+  <path d="M5 10 L42 8 L43 31 L6 32 Z" fill="#3d3226"/>
+  <path d="M6 11 L41 9 L42 30 L7 31 Z" fill="none" stroke="#584a37" stroke-width="1"/>
+  <circle cx="24" cy="20" r="8.5" fill="#1b1611"/>
+  <circle cx="24" cy="20" r="4" fill="#2e2620"/>
+  <path d="M4 3 L44 1 L44 8 L5 9 Z" fill="%DARK%"/>
+  <path d="M7 4 L20 3 L20 7 L7 8 Z" fill="#0f0c08"/>
+  <path d="M9 5 L18 4.5 L18 6.5 L9 7 Z" fill="%LIGHT%" opacity="0.5"/>
+  <path d="M2 33 L46 32 L46 36 L2 36 Z" fill="#15110c"/>
+  <path d="M30 26 L38 25 L37 30 L30 30 Z" fill="#4a3d2c" opacity="0.7"/>
+</svg>
