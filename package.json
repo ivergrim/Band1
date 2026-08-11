@@ -1,0 +1,17 @@
+{
+  "name": "bandruptcy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "You are the live sound engineer for a band that should not be allowed near a stage.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

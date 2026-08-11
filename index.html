@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#100c14" />
+    <title>BANDRUPTCY</title>
+    <meta
+      name="description"
+      content="You are the live sound engineer for a band that should not be allowed near a stage."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23100c14'/%3E%3Crect x='3' y='2' width='3' height='12' fill='%23e8c547'/%3E%3Crect x='10' y='6' width='3' height='8' fill='%23d9455f'/%3E%3C/svg%3E" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #08060a;
+        overflow: hidden;
+        touch-action: none;
+        overscroll-behavior: none;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #shell {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+      }
+      #screen {
+        display: block;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        cursor: default;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: #08060a;
+        color: #b9a58c;
+        font: 16px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        text-align: center;
+        letter-spacing: 0.08em;
+        z-index: 10;
+      }
+      #boot.gone {
+        display: none;
+      }
+      #boot b {
+        color: #e8c547;
+        display: block;
+        font-size: 26px;
+        letter-spacing: 0.22em;
+        margin-bottom: 14px;
+      }
+      #boot small {
+        display: block;
+        margin-top: 18px;
+        opacity: 0.55;
+        letter-spacing: 0.04em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="shell"><canvas id="screen"></canvas></div>
+    <div id="boot"><span><b>BANDRUPTCY</b>loading the gear…<small>headphones recommended</small></span></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
