@@ -19,9 +19,22 @@ npm run dev          # http://localhost:5173
 npm run build        # typecheck + static build into dist/
 ```
 
-**Cloudflare Pages**: build command `npm run build`, output directory `dist`, no
-environment variables. Everything is static and all asset paths are relative
-(`vite.config.ts` sets `base: './'`), so it also works from a subpath.
+**Cloudflare**: this deploys as an **assets-only Worker** (Workers Static Assets), not
+a Pages project. `wrangler.jsonc` serves `./dist` straight from the edge with no
+server-side code and no `main` entrypoint; unmatched paths fall back to `index.html`.
+
+```bash
+npm run deploy       # build, then wrangler deploy
+```
+
+With Git integration, the Worker's deploy command is `npx wrangler deploy` and the
+root directory is `/`. Setting its **build command to `npm run build`** is the tidy
+way to produce `dist/`, which is generated and not committed — but the deploy also
+works with that field left empty, because `postinstall` runs the build when it sees a
+CI environment variable (see `tools/ci-build.mjs`).
+
+All asset paths are relative (`vite.config.ts` sets `base: './'`), so it works from a
+subpath too.
 
 Audio is required (doc 20). The game needs one click to start, because browsers will
 not open an AudioContext without a gesture; the title screen is that click.
