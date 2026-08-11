@@ -9,8 +9,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build && wrangler deploy",
-    "postinstall": "node tools/ci-build.mjs"
+    "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
     "typescript": "^5.6.3",

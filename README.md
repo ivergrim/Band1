@@ -27,11 +27,14 @@ server-side code and no `main` entrypoint; unmatched paths fall back to `index.h
 npm run deploy       # build, then wrangler deploy
 ```
 
-With Git integration, the Worker's deploy command is `npx wrangler deploy` and the
-root directory is `/`. Setting its **build command to `npm run build`** is the tidy
-way to produce `dist/`, which is generated and not committed — but the deploy also
-works with that field left empty, because `postinstall` runs the build when it sees a
-CI environment variable (see `tools/ci-build.mjs`).
+With Git integration the Worker needs three settings, and `dist/` is generated rather
+than committed, so the build command is not optional:
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
 
 All asset paths are relative (`vite.config.ts` sets `base: './'`), so it works from a
 subpath too.
